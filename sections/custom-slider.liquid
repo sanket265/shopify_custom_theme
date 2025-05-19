@@ -58,6 +58,13 @@
      // dots: false, Boolean
     // arrows: false, Boolean
   });
+  var currentSlide = $('.hero-slider').slick('slickCurrentSlide');
+  $('.slick-prev').toggle(currentSlide != 0);
+  $('.slick-next').toggle(currentSlide != 2);
+
+  $('.hero-slider').one('afterChange', function() {
+    $('.slick-prev,.slick-next').show();
+  });
 {% endjavascript %}
 
 <div class="title">
