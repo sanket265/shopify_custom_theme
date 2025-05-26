@@ -24,7 +24,8 @@
           "type": "banner",
           "settings": {
             "title": "Modern Interior Design Studio",
-            "description": "<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>"
+            "description": "<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>",
+            "image": "shopify://shop_images/61hMIGOoc7L._SY625__1.jpg"
           }
         }
       },
