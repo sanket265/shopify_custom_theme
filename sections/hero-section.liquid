@@ -79,7 +79,15 @@
               <div class="col-lg-7">
                   {% if block.settings.image != blank %}
                     <div class="hero-img-wrap">
-                        <img src="images/couch.png" class="img-fluid">
+                        <!-- <img src="images/couch.png" class="img-fluid"> -->
+                    {{
+                      block.settings.image
+                      | image_url: width: 1500
+                      | image_tag:
+                        loading: 'lazy',
+                        widths: '375, 550, 750, 1100, 1500',
+                        class: 'hero-banner__img img-fluid'
+                    }}
                     </div>
                   {% endif %}
               </div>
