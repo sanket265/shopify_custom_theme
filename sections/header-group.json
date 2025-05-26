@@ -53,30 +53,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "hero_section_Q6UViF": {
-      "type": "hero-section",
-      "blocks": {
-        "banner_3xE8wa": {
-          "type": "banner",
-          "settings": {
-            "title": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "banner_3xE8wa"
-      ],
-      "name": "HeroBanner",
-      "settings": {
-        "title": "HeroBanner"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "hero_section_Q6UViF"
+    "header"
   ]
 }
