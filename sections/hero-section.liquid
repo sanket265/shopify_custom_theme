@@ -68,7 +68,7 @@
     {% endif %}
       <div class="container hero-slider">
         {% for block in section.blocks %}
-          <div class="row justify-content-between">
+          <div class="row justify-content-between" {{ block.shopify_attributes }}>
               <div class="col-lg-5">
                   <div class="intro-excerpt">
                       <h1>Modern Interior <span clsas="d-block">Design Studio</span></h1>
