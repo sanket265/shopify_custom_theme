@@ -15,9 +15,29 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "hero_section_Jrc63X": {
+      "type": "hero-section",
+      "blocks": {
+        "banner_Apb6Up": {
+          "type": "banner",
+          "settings": {
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "banner_Apb6Up"
+      ],
+      "name": "HeroBanner",
+      "settings": {
+        "title": "HeroBanner"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_section_Jrc63X"
   ]
 }
