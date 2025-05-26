@@ -63,6 +63,9 @@
 
 <!-- Start Hero Section -->
   <div class="hero">
+    {% if section.settings.title != blank %}
+      <h2 class="hero-banner__title">{{ section.settings.title }}</h2>
+    {% endif %}
       <div class="container hero-slider">
           <div class="row justify-content-between">
               <div class="col-lg-5">
