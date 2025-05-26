@@ -23,7 +23,7 @@
         "banner_Apb6Up": {
           "type": "banner",
           "settings": {
-            "title": "",
+            "title": "Modern Interior Design Studio",
             "description": ""
           }
         }
@@ -33,7 +33,7 @@
       ],
       "name": "HeroBanner",
       "settings": {
-        "title": "HeroBanner"
+        "title": "Hero banner"
       }
     }
   },
