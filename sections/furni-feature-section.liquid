@@ -93,7 +93,7 @@
                   <!-- <img src="images/product-1.png" class="img-fluid product-thumbnail"> -->
                   {{ block.settings.product_image | image_url: width: 261 | image_tag: class: 'img-fluid product-thumbnail' }}
                   <h3 class="product-title">{{ block.settings.product_name }}</h3>
-                  <strong class="product-price">${{ block.settings.product_price }}</strong>
+                  <strong class="product-price">{% if  block.settings.product_price %} ${{ block.settings.product_price }} {% endif %}</strong>
 
                   <span class="icon-cross">
                     <img src="{{ 'cross.svg' | asset_url }})" class="img-fluid">
