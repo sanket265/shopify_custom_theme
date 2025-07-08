@@ -31,8 +31,9 @@
         "banner_nkBddf": {
           "type": "banner",
           "settings": {
-            "title": "Test 2nd slide",
-            "description": "<p><br/>Test 2nd slide description</p>"
+            "title": "Test Modern Interior Design Studio",
+            "description": "<p><br/>Test 2nd slide description</p>",
+            "image": "shopify://shop_images/product-2.png"
           }
         }
       },
