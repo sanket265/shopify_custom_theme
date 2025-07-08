@@ -62,12 +62,6 @@
   }
 {% endschema %}
 
-{% for block in section.blocks %}
-  {% if block.type == "feature_button" %}
-    <a href="{{ block.settings.ft_link_url }}">{{ block.settings.ft_link_text }}</a>
-  {% endif %}
-{% endfor %}
-
 <!-- Start Product Section -->
   <div class="product-section">
     <div class="container">
