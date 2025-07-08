@@ -96,7 +96,8 @@
       "name": "Choose Us section",
       "settings": {
         "title": "Why Choose Us",
-        "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique."
+        "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.",
+        "choose_us_image": "shopify://shop_images/why-choose-us-img.jpg"
       }
     }
   },
