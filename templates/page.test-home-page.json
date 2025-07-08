@@ -109,11 +109,29 @@
             "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.",
             "icon": "shopify://shop_images/bag.svg"
           }
+        },
+        "choose_block_yCixpP": {
+          "type": "choose_block",
+          "settings": {
+            "title": "24/7 Support",
+            "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.",
+            "icon": "shopify://shop_images/support.svg"
+          }
+        },
+        "choose_block_FFzK68": {
+          "type": "choose_block",
+          "settings": {
+            "title": "Hassle Free Returns",
+            "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.",
+            "icon": "shopify://shop_images/return.svg"
+          }
         }
       },
       "block_order": [
         "choose_block_9aiHFA",
-        "choose_block_QCGBM6"
+        "choose_block_QCGBM6",
+        "choose_block_yCixpP",
+        "choose_block_FFzK68"
       ],
       "name": "Choose Us section",
       "settings": {
