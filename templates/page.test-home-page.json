@@ -46,11 +46,22 @@
     },
     "furni_feature_section_EGLppP": {
       "type": "furni-feature-section",
+      "blocks": {
+        "feature_button_ePVkX6": {
+          "type": "feature_button",
+          "settings": {
+            "ft_link_url": "shopify://collections",
+            "ft_link_text": "Explore"
+          }
+        }
+      },
+      "block_order": [
+        "feature_button_ePVkX6"
+      ],
       "name": "Furni Product Features Section",
       "settings": {
         "features_title": "Product Features Title",
-        "features_description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt molestias expedita laborum numquam dignissimos excepturi itaque. Laboriosam, impedit iusto, voluptatum at necessitatibus quidem possimus quibusdam numquam, magnam ea obcaecati neque.</p>",
-        "features_button": ""
+        "features_description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt molestias expedita laborum numquam dignissimos excepturi itaque. Laboriosam, impedit iusto, voluptatum at necessitatibus quidem possimus quibusdam numquam, magnam ea obcaecati neque.</p>"
       }
     }
   },
