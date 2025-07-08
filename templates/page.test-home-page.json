@@ -98,12 +98,22 @@
           "type": "choose_block",
           "settings": {
             "title": "Fast & Free Shipping",
-            "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
+            "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.",
+            "icon": "shopify://shop_images/truck.svg"
+          }
+        },
+        "choose_block_QCGBM6": {
+          "type": "choose_block",
+          "settings": {
+            "title": "Easy to Shop",
+            "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.",
+            "icon": "shopify://shop_images/bag.svg"
           }
         }
       },
       "block_order": [
-        "choose_block_9aiHFA"
+        "choose_block_9aiHFA",
+        "choose_block_QCGBM6"
       ],
       "name": "Choose Us section",
       "settings": {
