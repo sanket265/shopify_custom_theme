@@ -81,8 +81,10 @@
 
             <div class="col-lg-5">
                 <div class="img-wrap">
+                  {% if section.settings.choose_us_image %}
                     <!-- <img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid"> -->
-                  {{ section.settings.choose_us_image | image_url: width: 451, height:516 | image_tag: class:"img-fluid" }}
+                    {{ section.settings.choose_us_image | image_url: width: 451, height:516 | image_tag: class:"img-fluid" }}
+                  {% endif %}
                 </div>
             </div>
 
