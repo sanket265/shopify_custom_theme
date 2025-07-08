@@ -65,9 +65,9 @@
         "product_7tcC3T": {
           "type": "product",
           "settings": {
-            "product_name": "Chair",
-            "product_price": 40,
-            "product_image": "shopify://shop_images/81vcto-YiPL._SY625.jpg"
+            "product_name": "Nordic Chair",
+            "product_price": 50,
+            "product_image": "shopify://shop_images/product-1.png"
           }
         }
       },
