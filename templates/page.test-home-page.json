@@ -47,16 +47,17 @@
     "furni_feature_section_EGLppP": {
       "type": "furni-feature-section",
       "blocks": {
-        "feature_button_ePVkX6": {
-          "type": "feature_button",
+        "product_mbrwJg": {
+          "type": "product",
           "settings": {
-            "ft_link_url": "shopify://collections",
-            "ft_link_text": "Explore"
+            "product_name": "Chair",
+            "product_price": 40,
+            "product_image": "shopify://shop_images/81vcto-YiPL._SY625.jpg"
           }
         }
       },
       "block_order": [
-        "feature_button_ePVkX6"
+        "product_mbrwJg"
       ],
       "name": "Furni Product Features Section",
       "settings": {
