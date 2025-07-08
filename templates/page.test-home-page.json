@@ -93,6 +93,18 @@
     },
     "furni_choose_us_DayfU8": {
       "type": "furni-choose-us",
+      "blocks": {
+        "choose_block_9aiHFA": {
+          "type": "choose_block",
+          "settings": {
+            "title": "Fast & Free Shipping",
+            "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
+          }
+        }
+      },
+      "block_order": [
+        "choose_block_9aiHFA"
+      ],
       "name": "Choose Us section",
       "settings": {
         "title": "Why Choose Us",
