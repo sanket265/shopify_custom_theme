@@ -43,10 +43,18 @@
       "settings": {
         "title": "Hero banner"
       }
+    },
+    "furni_feature_section_EGLppP": {
+      "type": "furni-feature-section",
+      "name": "Furni Product Features Section",
+      "settings": {
+        "features_title": "Product Features Title"
+      }
     }
   },
   "order": [
     "main",
-    "hero_section_Jrc63X"
+    "hero_section_Jrc63X",
+    "furni_feature_section_EGLppP"
   ]
 }
