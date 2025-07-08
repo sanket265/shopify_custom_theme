@@ -66,8 +66,10 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                  <!-- <img src="images/truck.svg" alt="Image" class="imf-fluid"> -->
-                                  {{ block.settings.icon | image_url: width:46 , height:46 | image_tag: class:"imf-fluid" }}
+                                  {% if block.settings.icon %}
+                                    <!-- <img src="images/truck.svg" alt="Image" class="imf-fluid"> -->
+                                    {{ block.settings.icon | image_url: width:46 , height:46 | image_tag: class:"imf-fluid" }}
+                                  {% endif %}
                                 </div>
                                 <h3>{{ block.settings.title }}</h3>
                                 <p>{{ block.settings.description }}</p>
