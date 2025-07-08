@@ -1,6 +1,23 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Choose Us section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Choose Us"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description",
+      },
+      {
+        "type": "image_picker",
+        "id": "choose_us_image",
+        "label": "Image"
+      }
+    ]
   }
 {% endschema %}
