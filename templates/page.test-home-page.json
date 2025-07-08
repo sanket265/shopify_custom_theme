@@ -48,7 +48,9 @@
       "type": "furni-feature-section",
       "name": "Furni Product Features Section",
       "settings": {
-        "features_title": "Product Features Title"
+        "features_title": "Product Features Title",
+        "features_description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt molestias expedita laborum numquam dignissimos excepturi itaque. Laboriosam, impedit iusto, voluptatum at necessitatibus quidem possimus quibusdam numquam, magnam ea obcaecati neque.</p>",
+        "features_button": ""
       }
     }
   },
