@@ -90,11 +90,20 @@
         "features_title": "Crafted with excellent material.",
         "features_description": "<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>"
       }
+    },
+    "furni_choose_us_DayfU8": {
+      "type": "furni-choose-us",
+      "name": "Choose Us section",
+      "settings": {
+        "title": "Why Choose Us",
+        "description": "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique."
+      }
     }
   },
   "order": [
     "main",
     "hero_section_Jrc63X",
-    "furni_feature_section_EGLppP"
+    "furni_feature_section_EGLppP",
+    "furni_choose_us_DayfU8"
   ]
 }
