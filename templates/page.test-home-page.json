@@ -58,8 +58,8 @@
           "type": "product",
           "settings": {
             "product_name": "Chair",
-            "product_price": 40,
-            "product_image": "shopify://shop_images/81vcto-YiPL._SY625.jpg"
+            "product_price": 78,
+            "product_image": "shopify://shop_images/product-2.png"
           }
         },
         "product_7tcC3T": {
@@ -69,12 +69,21 @@
             "product_price": 50,
             "product_image": "shopify://shop_images/product-1.png"
           }
+        },
+        "product_4nAzH9": {
+          "type": "product",
+          "settings": {
+            "product_name": "Ergonomic Chair",
+            "product_price": 43,
+            "product_image": "shopify://shop_images/product-3.png"
+          }
         }
       },
       "block_order": [
         "feature_button_LEwYtc",
         "product_mbrwJg",
-        "product_7tcC3T"
+        "product_7tcC3T",
+        "product_4nAzH9"
       ],
       "name": "Furni Product Features Section",
       "settings": {
